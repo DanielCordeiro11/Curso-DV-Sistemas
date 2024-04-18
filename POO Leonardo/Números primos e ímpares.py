@@ -22,7 +22,6 @@ else:
      print(1)
 except ValeuError:
   print("Entrada inválida. Por favor, digite 'p' para imprimir de 1 até 10, 'primo' para imprimir números primos até o valor fornecido.")
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  def eh_primo(num):
    if num <= 1:
      return False
@@ -33,7 +32,6 @@ return True
 
 Wile True:
       comando = input("Digite 'p' para imprimir de 1 até 10,\nou digite um número para imprimir até esse valor.")
-
       if comando.lower() == 'p':
         for i in range(1, 11):
             print(i)
@@ -52,7 +50,6 @@ else:
           numero = int(comando)
           if numero <= 0
                print("Por favor, digite um valor positivo maior que zero!")
-
       
                            
               
